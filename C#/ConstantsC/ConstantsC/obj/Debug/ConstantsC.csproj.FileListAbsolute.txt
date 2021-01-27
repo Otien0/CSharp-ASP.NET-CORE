@@ -1,0 +1,7 @@
+C:\Users\Denis Panjuta\source\repos\ConstantsC\ConstantsC\bin\Debug\ConstantsC.exe.config
+C:\Users\Denis Panjuta\source\repos\ConstantsC\ConstantsC\bin\Debug\ConstantsC.exe
+C:\Users\Denis Panjuta\source\repos\ConstantsC\ConstantsC\bin\Debug\ConstantsC.pdb
+C:\Users\Denis Panjuta\source\repos\ConstantsC\ConstantsC\obj\Debug\ConstantsC.csprojResolveAssemblyReference.cache
+C:\Users\Denis Panjuta\source\repos\ConstantsC\ConstantsC\obj\Debug\ConstantsC.csproj.CoreCompileInputs.cache
+C:\Users\Denis Panjuta\source\repos\ConstantsC\ConstantsC\obj\Debug\ConstantsC.exe
+C:\Users\Denis Panjuta\source\repos\ConstantsC\ConstantsC\obj\Debug\ConstantsC.pdb
