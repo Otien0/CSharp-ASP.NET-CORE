@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="MyRoot\css\site.css" />
+    <Content Include="MyRoot\favicon.ico" />
+    <Content Include="MyRoot\Images\logo1.gif" />
+    <Content Include="MyRoot\js\site.js" />
+    <Content Include="MyRoot\lib\bootstrap\dist\css\bootstrap-grid.css" />
+    <Content Include="MyRoot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <Content Include="MyRoot\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <Content Include="MyRoot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <Content Include="MyRoot\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+    <Content Include="MyRoot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <Content Include="MyRoot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+    <Content Include="MyRoot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <Content Include="MyRoot\lib\bootstrap\dist\css\bootstrap.css" />
+    <Content Include="MyRoot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <Content Include="MyRoot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <Content Include="MyRoot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <Content Include="MyRoot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <Content Include="MyRoot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <Content Include="MyRoot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <Content Include="MyRoot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <Content Include="MyRoot\lib\bootstrap\dist\js\bootstrap.js" />
+    <Content Include="MyRoot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <Content Include="MyRoot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <Content Include="MyRoot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <Content Include="MyRoot\lib\bootstrap\LICENSE" />
+    <Content Include="MyRoot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <Content Include="MyRoot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <Content Include="MyRoot\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+    <Content Include="MyRoot\lib\jquery-validation\dist\additional-methods.js" />
+    <Content Include="MyRoot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <Content Include="MyRoot\lib\jquery-validation\dist\jquery.validate.js" />
+    <Content Include="MyRoot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <Content Include="MyRoot\lib\jquery-validation\LICENSE.md" />
+    <Content Include="MyRoot\lib\jquery\dist\jquery.js" />
+    <Content Include="MyRoot\lib\jquery\dist\jquery.min.js" />
+    <Content Include="MyRoot\lib\jquery\dist\jquery.min.map" />
+    <Content Include="MyRoot\lib\jquery\LICENSE.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.8" />
+  </ItemGroup>
+
+</Project>
