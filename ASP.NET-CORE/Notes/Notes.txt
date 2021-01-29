@@ -1,0 +1,99 @@
+ASP.NET CORE 3.1 && 5.0
+==>>Understanding The Structure And Flow Using MVC Architecture.
+
+1.First MVC CORE WEB APP:
+  =>First Demo App,
+  =>Understanding how the Models, Views And Controllers Work in ASP.NET CORE
+
+2.Working With Controllers Demo:
+  a)Working With ViewBag Model Object;
+     =>Creating A New Controller And Adding New Actions, While Passing Data unto it.
+     =>Views are used to store data and be called later
+  b)Accseeing Query String Parameter Values.
+  c)Redirecting Users To a Different URL
+    => Using Tag Helpers, And Forms in ASP.NET
+  d)Creating A Custom Model And Passing It TO A View.
+    =>Create a new class model_ Authors and pass data to HomeController
+  e)Accessing RouteData Object Values.
+    =>New Controller and a view with data passed unto it.
+  f)Csutomizing Nav Bar.
+    =>Modifying the layout.cshtml file
+
+3. Working With Various Types Of IActions Results:
+     Types include Generic(System), Specific(User_Defined)
+   a)Using Content Result.=>Content and Web Root Paths.
+   b)Using View Result
+   c)Using ReduirectResult. Using Fiddler Web Debugger to Return Different Types Of Status Codes.
+   d)Using Redirect To Action Results.- Passing in another action with some new data to call it.
+   e)Using RedirectToRoute Result. By creating new end points in Startup.cs file, and modify the contents to be called by the later Action in Home Controller.
+   f)Using FileResult. By specifying the virtual(Webroot) path, Content type, and The New File. To Download or Show the File.
+   g)Using FileContentResult. By reading the binary, xml and json files and then send them as the response to the browser to be downloaded.
+   h)Using FileStreamResult. Writes a file from a stream to the response.
+   i)Using VirtualFileResult And PhysicalFileResult. In Physical we use the content root path from the environment object to download the details.
+   j)Using JsonResult. By Converting your object data into json format.
+   K)Using EmptyResult and NoContentResult. Using Fiddler to show the status codes and display an empty result to the end user in the web response.
+   l)Using BadRequestResult and StatusCodeResult. Display different status codes using Fiddler and to the browser.
+   m)Using UnauthorizedResult. By either passing an empty result or using object and modelstate to pass some data and display the response to the end user.
+   n)Using NotFoundResult. Empty Action Produces a StatusCode and a response or Using object displays the created data for the response.
+   0)Using OkObjectResult. Performs content negotiations, formats the entity body and produces a status code when negotiation and formatting is succeeded.
+   p)Using PartialViewResult. Creating a new partial view in the shared folder and pass in some data unto it. 
+
+4.
+Configuring Razor View Engine:
+                              https://www.c-sharpcorner.com/blogs/custom-razor-view-location-in-asp-net-core-mvc
+                              https://stackoverflow.com/questions/632964/can-i-specify-a-custom-location-to-search-for-views-in-asp-net-mvc
+5. Form Tag Helpers:
+   Creating Models and Views based on them.
+
+6. Validations:
+   When a user submits form field values, proper validation can help build a more user-friendly and secure web application.
+   Instead of coding each view/page individually, you can simply use server-side attributes in your models/viewmodels.
+
+        https://docs.microsoft.com/en-us/aspnet/core/mvc/models/validation?view=aspnetcore-5.0
+        https://wakeupandcode.com/validation-in-asp-net-core-3-1/#:~:text=V%20is%20for%20Validation,-To%20build%20upon&text=NET%20Core%2C%20this%20post%20covers,attributes%20in%20your%20models%2Fviewmodels.
+
+7.Default Model Binding:
+   Using Form Tag Helper Project
+
+8.Dependency Injection:
+           Add.Singleton<>();
+           Add.Transiet<>();
+           Add.Scoped<>();
+
+                       https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-5.0
+                       https://www.tutorialsteacher.com/core/dependency-injection-in-aspnet-core
+                       https://softchris.github.io/pages/dotnet-di.html#what-to-register
+                       https://www.dotnettricks.com/learn/dependencyinjection/implementation-asp-net-core-mvc
+                       https://medium.com/@letienthanh0212/net-core-dependency-injection-in-asp-net-core-7fdf5e1cc200#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6ImVlYTFiMWY0MjgwN2E4Y2MxMzZhMDNhM2MxNmQyOWRiODI5NmRhZjAiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2MTE3MzgzNTcsImF1ZCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwMzM5OTQ4ODA2NTg4Mjk2Njg1MSIsImVtYWlsIjoib3RpZW5vbWF1cmljZTM2NEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiMjE2Mjk2MDM1ODM0LWsxazZxZTA2MHMydHAyYTJqYW00bGpkY21zMDBzdHRnLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwibmFtZSI6Im1vdXJpY2Ugb3RpZW5vIE9kdW9yIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hLS9BT2gxNEdqaTUwUTFReUE2ek9XeGtjaXhDZnZSY2w1MGd6dmEyTEozV3dKWTNRPXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6Im1vdXJpY2Ugb3RpZW5vIiwiZmFtaWx5X25hbWUiOiJPZHVvciIsImlhdCI6MTYxMTczODY1NywiZXhwIjoxNjExNzQyMjU3LCJqdGkiOiJjNzZmNTY2YzBhMmYxNjc3NDUzMmZjNGFkMTU3ZGEzMDMwZmY0YWY0In0.p65e6jFTcEST3EvPdFpKgTZwFM47pPRPz0lKkLPm9vQfgPC2w2MHswXHSkt_tLK8EN4ez4wgoU65Ts_2nFdarxGumAfQZrH_085a2-GQGhKLbKZipXygxsFjcFtax5YJkj7xZ4mBxWZ0XMIWExbmwcNKLP4L6zsIXr-FWp7VA_X8iv14Kg8Lx1XpOrdwcWdkr2RClS14MOAdRbYVRvVl5ZxIhQdrTP4nTR2EQVH2mANKIoD8GfK8aiJnxPa5bsLPqP_XVOhtPVHjUCX3ALboVvnKTTLMK3TPcncJ-29v6MGhvxhybHSIINe7FgfhJl5P3ixFYa8BAPgrfCEWXYR56g
+
+9. Configuration Service:
+      Read configuration data from key-value pairs.
+                         https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-5.0
+10.StoringUserSecrets:
+                     https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-5.0&tabs=windows
+                     https://dev.to/dotnet/how-to-store-app-secrets-for-your-asp-net-core-project-2j5b?signin=true
+                     https://stackoverflow.com/questions/40131672/storing-production-secrets-in-asp-net-core
+11.LoggingServices:
+                   https://docs.microsoft.com/en-us/dotnet/core/extensions/logging#log-level
+                   https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/?view=aspnetcore-5.0
+                   https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.loglevel?view=dotnet-plat-ext-5.0
+
+12.CustomFilters:
+                 https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/filters?view=aspnetcore-5.0
+                 https://www.yogihosting.com/aspnet-core-filters/#action-filter
+                 https://www.infoworld.com/article/3328648/how-to-use-action-filters-in-aspnet-core-mvc.html
+                 https://www.c-sharpcorner.com/article/asp-net-core-2-0-mvc-filters/
+                 https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions-1/controllers-and-routing/understanding-action-filters-cs
+                 https://www.c-sharpcorner.com/blogs/custom-filter-in-mvc-or-logging-using-mvc-filter
+
+13.ErrorHandling:
+                 https://docs.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-5.0
+                 https://jasonwatmore.com/post/2020/10/02/aspnet-core-31-global-error-handler-tutorial
+                 https://www.c-sharpcorner.com/article/implement-global-exception-handling-in-asp-net-core-application/
+
+14.DevelopingViewComponents:
+                 https://docs.microsoft.com/en-us/aspnet/core/mvc/views/view-components?view=aspnetcore-5.0
+                 https://www.c-sharpcorner.com/article/viewcomponent-in-asp-net-core/
+                 https://www.codingame.com/playgrounds/4981/view-components-in-asp-net-core
+
+15.CustomTagHelpers:
