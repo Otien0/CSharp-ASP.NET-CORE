@@ -1,0 +1,32 @@
+﻿@model WebinarInvites
+@{
+    ViewData["Title"] = "ThankYou";
+}
+
+<h1>ThankYou!</h1>
+
+
+@if (Model.WillJoin == true)
+{<div class="text-center">
+        <img src="~/images/dev.png" />
+
+        <h1>ThankYou</h1>
+
+        Congratulations - @Model.Name,
+
+        <p>Your Seat is Reserved for the Google Developer Conference | February 18-19</p>
+
+        <p>Thank you for registering for the Google Developer Conference.</p>
+
+        <p>Your registration has been confirmed. We look forward to seeing you at the event.</p>
+
+        <p>Please join 10 minutes early to familiarize yourself with the digital platform and ensure you do not miss the keynote of the day.</p>
+    </div>
+}
+else
+{
+    <h3>Sorry to hear that you can't make it, but thanks for letting us know. We will arrange you recorded session.</h3>
+}
+
+<div>Click <a asp-action="ListResponses">here</a> to see who is attending.</div>
+
