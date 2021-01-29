@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Products>
+  <Product>
+    <Code>101</Code>
+    <Name>Printer</Name>
+  </Product>
+  <Product>
+    <Code>102</Code>
+    <Name>Scanner</Name>
+  </Product>
+  <Product>
+    <Code>103</Code>
+    <Name>Router</Name>
+  </Product>
+  <Product>
+    <Code>104</Code>
+    <Name>Switch</Name>
+  </Product>
+  
+</Products>
