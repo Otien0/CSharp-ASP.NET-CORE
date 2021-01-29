@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<h1>@ViewData["Ename"]</h1>
+
+<h1>@ViewData["Country"]</h1>
+
+<h1>@ViewData["Message"]</h1>
+
+<h1>@ViewBag.Message</h1>
+
+<h1>@TempData["Country"]</h1>
+
+
+<h2>When an object in a TempDataDictionary is read, it will be marked for deletion at the end of that request.</h2>
+<h2>The Peek and Keep methods allow you to read the value without marking it for deletion</h2>
+
+<h1>Peek Country</h1>
+
+@{
+    if (TempData.Peek("Country") != null)
+    {
+        <h3>Country: @TempData.Peek("Country")</h3>
+    }
+}
+
+<h1>Keep Country</h1>
+<h2>With Keep you specify a key that was marked for deletion that you want to keep</h2>
+@{
+    if (TempData["Country"] != null)
+    {
+        <h3>Country: @TempData["Country"]</h3>
+    }
+    TempData.Keep("Country");
+}
+
+<form asp-controller="State" asp-action="Index" method="post">
+
+    <input type="submit" />
+
+</form>
+
