@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StronglyTypedModelViews", "StronglyTypedModelViews\StronglyTypedModelViews.csproj", "{0F599801-1510-457C-83A7-3ECC54B97DEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F599801-1510-457C-83A7-3ECC54B97DEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F599801-1510-457C-83A7-3ECC54B97DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F599801-1510-457C-83A7-3ECC54B97DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F599801-1510-457C-83A7-3ECC54B97DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60741925-9F7D-4935-A329-F7FA022F2349}
+	EndGlobalSection
+EndGlobal

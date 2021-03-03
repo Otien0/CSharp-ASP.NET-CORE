@@ -1,0 +1,37 @@
+﻿@model StronglyTypedModelViews.Models.Product
+
+
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => modelItem.ProductID)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => modelItem.ProductName)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => modelItem.Quantity)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => modelItem.UnitsInStock)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => modelItem.Discontinued)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => modelItem.Cost)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => modelItem.Tax)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => modelItem.LaunchDate)
+    </td>
+    <td>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.ProductID })
+        @Html.ActionLink("Detils", "Detils", new { id = Model.ProductID })
+        @Html.ActionLink("Delete", "Delete", new { id = Model.ProductID })
+    </td>
+</tr>
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
