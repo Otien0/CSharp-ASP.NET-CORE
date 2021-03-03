@@ -97,3 +97,48 @@ Configuring Razor View Engine:
                  https://www.codingame.com/playgrounds/4981/view-components-in-asp-net-core
 
 15.CustomTagHelpers:
+
+16.Working With Areas:
+                 https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/areas?view=aspnetcore-5.0
+                 https://stackoverflow.com/questions/36535511/how-to-use-an-area-in-asp-net-core
+                 https://www.c-sharpcorner.com/article/working-with-areas-in-asp-net-core-3-1/
+
+17.Configuring Entity Framework:
+   EmployeeManagerApp;
+     ==>>Using Asp.net core with backend Approach
+     
+#### https://dba.stackexchange.com/questions/208764/what-is-the-purpose-of-with-options-in-sql-constraints/208797
+     https://docs.microsoft.com/en-us/sql/t-sql/statements/alter-table-index-option-transact-sql?view=sql-server-ver15 ###
+                 https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/intro?view=aspnetcore-5.0
+                 https://www.entityframeworktutorial.net/efcore/configuration-in-entity-framework-core.aspx
+                 https://dev.to/annadante/configuring-entity-framework-core-into-asp-net-core-3kd4
+                 https://medium.com/@balramchavan/setup-entity-framework-core-for-mysql-in-asp-net-core-2-5b40a5a3af94
+
+Packages Required:
+      >Dependency (Right_Click)>manage Nugget Packages, >Browse tab and search for Entity framework core:
+       1. Microsoft.EntityFrameworkCore.Design
+       2. Microsoft.EntityFrameworkCore.SqlServer
+Go to Appsettings.json and specify the connection string below allowed hosts;
+                   "ConnectionStrings": {
+    "AppDb": "data source=.;initial catalog=EmployeeManagerAppDb;integrated security=true"
+  }
+
+18.Performing CRUD Operations using Entity Framework:
+                https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/crud?view=aspnetcore-5.0
+                https://www.c-sharpcorner.com/article/crud-operations-in-asp-net-core-using-entity-framework-core-code-first/
+                https://www.dotnettricks.com/learn/aspnetcore/entity-framework-core-crud-operations
+                https://developer.okta.com/blog/2020/06/10/crud-entity-framework-core
+    DB_cONTEXT:
+               https://docs.microsoft.com/en-us/ef/core/dbcontext-configuration/
+               https://docs.microsoft.com/en-us/ef/core/dbcontext-configuration/
+               https://stackoverflow.com/questions/38417051/what-goes-into-dbcontextoptions-when-invoking-a-new-dbcontext
+               
+    Using Code-First Approach:
+              >> Package: EntityFrameworkTools
+              Using Nugget Package Manager Console.
+              Create A Database based on the classes that you have in the models folder.
+
+19.Caching Demo:
+              https://docs.microsoft.com/en-us/aspnet/core/performance/caching/memory?view=aspnetcore-5.0
+              https://www.c-sharpcorner.com/article/asp-net-core-in-memory-caching/
+              https://docs.microsoft.com/en-us/aspnet/core/performance/caching/response?view=aspnetcore-5.0
