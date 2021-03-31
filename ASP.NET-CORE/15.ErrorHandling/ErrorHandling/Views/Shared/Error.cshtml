@@ -1,0 +1,23 @@
+﻿@*@model ErrorViewModel*@
+
+@model Exception
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h1 class="text-danger">Error.</h1>
+<h2 class="text-danger">An error occurred while processing your request.</h2>
+
+@*@if (Model.ShowRequestId)
+    {
+        <p>
+            <strong>Request ID:</strong> <code>@Model.RequestId</code>
+        </p>
+    }*@
+
+
+<p><strong>Message :</strong> <code>@Model.Message</code></p>
+<p><strong>StackTrace :</strong> <code>@Model.StackTrace</code></p>
+<p><strong>Source :</strong> <code>@Model.Source</code></p>
+<p><strong>GetBaseException :</strong> <code>@Model.GetBaseException()</code></p>
+
