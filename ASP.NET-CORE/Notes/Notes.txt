@@ -115,12 +115,11 @@ Configuring Razor View Engine:
                  https://medium.com/@balramchavan/setup-entity-framework-core-for-mysql-in-asp-net-core-2-5b40a5a3af94
 
 Packages Required:
-      >Dependency (Right_Click)>manage Nugget Packages, 
-      >Browse tab and search for Entity framework core:
        1. Microsoft.EntityFrameworkCore.Design
        2. Microsoft.EntityFrameworkCore.SqlServer
        Go to Appsettings.json and specify the connection string below allowed hosts;
                    "ConnectionStrings": {
+    "AppDb": "data source=.;initial catalog="YourDATABASEName"+AppDb;integrated security=true"
     "AppDb": "data source=.;initial catalog=EmployeeManagerAppDb;integrated security=true"
   }
 
