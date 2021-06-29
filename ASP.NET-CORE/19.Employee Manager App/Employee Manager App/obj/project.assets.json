@@ -8732,28 +8732,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\USER\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\moryso\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Desktop\\asp.net-core\\code\\19.Employee Manager App\\Employee Manager App\\Employee Manager App.csproj",
+      "projectUniqueName": "C:\\Users\\moryso\\Desktop\\asp.net-core\\git\\CSharp-ASP.NET-CORE\\ASP.NET-CORE\\19.Employee Manager App\\Employee Manager App\\Employee Manager App.csproj",
       "projectName": "Employee Manager App",
-      "projectPath": "C:\\Users\\USER\\Desktop\\asp.net-core\\code\\19.Employee Manager App\\Employee Manager App\\Employee Manager App.csproj",
-      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Desktop\\asp.net-core\\code\\19.Employee Manager App\\Employee Manager App\\obj\\",
+      "projectPath": "C:\\Users\\moryso\\Desktop\\asp.net-core\\git\\CSharp-ASP.NET-CORE\\ASP.NET-CORE\\19.Employee Manager App\\Employee Manager App\\Employee Manager App.csproj",
+      "packagesPath": "C:\\Users\\moryso\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\moryso\\Desktop\\asp.net-core\\git\\CSharp-ASP.NET-CORE\\ASP.NET-CORE\\19.Employee Manager App\\Employee Manager App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\moryso\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -8829,7 +8826,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
