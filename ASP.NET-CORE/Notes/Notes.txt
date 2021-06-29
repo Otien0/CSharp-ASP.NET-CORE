@@ -147,6 +147,8 @@ Packages Required:
               This Creates A Database based on the classes that you have in the models folder.
 	      With this approach is that whenever you change or add new models, you have to ""Update-Database"" again in order to update the Schema. 
 19.Caching Demo:
+         In-Memory Caching is a technique of storing frequently used data in a temporary storage area, as it improves performance and scalability. 
+
               https://docs.microsoft.com/en-us/aspnet/core/performance/caching/memory?view=aspnetcore-5.0
               https://www.c-sharpcorner.com/article/asp-net-core-in-memory-caching/
               https://docs.microsoft.com/en-us/aspnet/core/performance/caching/response?view=aspnetcore-5.0
