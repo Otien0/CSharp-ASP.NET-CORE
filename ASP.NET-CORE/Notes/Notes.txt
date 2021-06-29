@@ -105,7 +105,8 @@ Configuring Razor View Engine:
 
 17.Configuring Entity Framework:
    EmployeeManagerApp;
-     ==>>Using Asp.net core with Database First Approach
+     ==>>A. Using Asp.net core with Database First Approach 
+	    Create model classes based on the tables on the database.
      
 #### https://dba.stackexchange.com/questions/208764/what-is-the-purpose-of-with-options-in-sql-constraints/208797
      https://docs.microsoft.com/en-us/sql/t-sql/statements/alter-table-index-option-transact-sql?view=sql-server-ver15 ###
@@ -120,6 +121,11 @@ Packages Required:
        Go to Appsettings.json and specify the connection string below allowed hosts;
                    "ConnectionStrings": {
     "AppDb": "data source=.;initial catalog="YourDATABASEName"+AppDb;integrated security=true"
+                                  OR
+    "ConnectionStrings": {
+    "AppDb": "data source=DESKTOP-FNHGM54\\SQLEXPRESS;initial catalog=EmployeeMangerAppDb;User Id=myUsername; Password=myPassword;trusted_connection=true;integrated security=true;"
+  }
+				 OR
     "AppDb": "data source=.;initial catalog=EmployeeManagerAppDb;integrated security=true"
   }
 
@@ -133,11 +139,13 @@ Packages Required:
                https://docs.microsoft.com/en-us/ef/core/dbcontext-configuration/
                https://stackoverflow.com/questions/38417051/what-goes-into-dbcontextoptions-when-invoking-a-new-dbcontext
                
-    Using Code-First Approach:
-              >> Package: EntityFrameworkTools
-              Using Nugget Package Manager Console.
-              Create A Database based on the classes that you have in the models folder.
-
+    B. Using Code-First Approach:
+              >>Download> Package: Entity Framework Tools > Onto your app
+              Using Nugget Package Manager Console. Change the directory to your app on the terminal. Then;
+ 					""Add-Migration -Name Initial"" AND Use ""Remove-Migration"" to undo.
+			THEN>>		""Update-Database"" To cerate the database with tables for you.
+              This Creates A Database based on the classes that you have in the models folder.
+	      With this approach is that whenever you change or add new models, you have to ""Update-Database"" again in order to update the Schema. 
 19.Caching Demo:
               https://docs.microsoft.com/en-us/aspnet/core/performance/caching/memory?view=aspnetcore-5.0
               https://www.c-sharpcorner.com/article/asp-net-core-in-memory-caching/
