@@ -1,0 +1,7 @@
+D:\C#\GIT\CSharp-ASP.NET-CORE\C#\2. Arrays\b. Loops-in-Arrays\For_Loops_in_Arrays\bin\Debug\For_Loops_in_Arrays.exe.config
+D:\C#\GIT\CSharp-ASP.NET-CORE\C#\2. Arrays\b. Loops-in-Arrays\For_Loops_in_Arrays\bin\Debug\For_Loops_in_Arrays.exe
+D:\C#\GIT\CSharp-ASP.NET-CORE\C#\2. Arrays\b. Loops-in-Arrays\For_Loops_in_Arrays\bin\Debug\For_Loops_in_Arrays.pdb
+D:\C#\GIT\CSharp-ASP.NET-CORE\C#\2. Arrays\b. Loops-in-Arrays\For_Loops_in_Arrays\obj\Debug\For_Loops_in_Arrays.csproj.SuggestedBindingRedirects.cache
+D:\C#\GIT\CSharp-ASP.NET-CORE\C#\2. Arrays\b. Loops-in-Arrays\For_Loops_in_Arrays\obj\Debug\For_Loops_in_Arrays.csproj.CoreCompileInputs.cache
+D:\C#\GIT\CSharp-ASP.NET-CORE\C#\2. Arrays\b. Loops-in-Arrays\For_Loops_in_Arrays\obj\Debug\For_Loops_in_Arrays.exe
+D:\C#\GIT\CSharp-ASP.NET-CORE\C#\2. Arrays\b. Loops-in-Arrays\For_Loops_in_Arrays\obj\Debug\For_Loops_in_Arrays.pdb
