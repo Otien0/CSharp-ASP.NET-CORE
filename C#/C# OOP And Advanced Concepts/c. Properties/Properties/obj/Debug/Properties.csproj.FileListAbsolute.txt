@@ -1,0 +1,7 @@
+D:\C#\GIT\1. Object Oriented Programming (OOP) in C#\Properties\Properties\bin\Debug\Properties.exe.config
+D:\C#\GIT\1. Object Oriented Programming (OOP) in C#\Properties\Properties\bin\Debug\Properties.exe
+D:\C#\GIT\1. Object Oriented Programming (OOP) in C#\Properties\Properties\bin\Debug\Properties.pdb
+D:\C#\GIT\1. Object Oriented Programming (OOP) in C#\Properties\Properties\obj\Debug\Properties.csproj.SuggestedBindingRedirects.cache
+D:\C#\GIT\1. Object Oriented Programming (OOP) in C#\Properties\Properties\obj\Debug\Properties.csproj.CoreCompileInputs.cache
+D:\C#\GIT\1. Object Oriented Programming (OOP) in C#\Properties\Properties\obj\Debug\Properties.exe
+D:\C#\GIT\1. Object Oriented Programming (OOP) in C#\Properties\Properties\obj\Debug\Properties.pdb
