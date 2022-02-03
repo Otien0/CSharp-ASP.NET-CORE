@@ -1,0 +1,7 @@
+F:\Visual Studio Projects\ArrayListsVsLists\ArrayListsVsLists\bin\Debug\ArrayListsVsLists.exe.config
+F:\Visual Studio Projects\ArrayListsVsLists\ArrayListsVsLists\bin\Debug\ArrayListsVsLists.exe
+F:\Visual Studio Projects\ArrayListsVsLists\ArrayListsVsLists\bin\Debug\ArrayListsVsLists.pdb
+F:\Visual Studio Projects\ArrayListsVsLists\ArrayListsVsLists\obj\Debug\ArrayListsVsLists.csprojResolveAssemblyReference.cache
+F:\Visual Studio Projects\ArrayListsVsLists\ArrayListsVsLists\obj\Debug\ArrayListsVsLists.csproj.CoreCompileInputs.cache
+F:\Visual Studio Projects\ArrayListsVsLists\ArrayListsVsLists\obj\Debug\ArrayListsVsLists.exe
+F:\Visual Studio Projects\ArrayListsVsLists\ArrayListsVsLists\obj\Debug\ArrayListsVsLists.pdb
