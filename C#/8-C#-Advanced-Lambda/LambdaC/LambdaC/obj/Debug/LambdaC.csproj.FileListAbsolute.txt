@@ -1,0 +1,14 @@
+F:\Visual Studio Projects\LambdaC\LambdaC\bin\Debug\LambdaC.exe.config
+F:\Visual Studio Projects\LambdaC\LambdaC\bin\Debug\LambdaC.exe
+F:\Visual Studio Projects\LambdaC\LambdaC\bin\Debug\LambdaC.pdb
+F:\Visual Studio Projects\LambdaC\LambdaC\obj\Debug\LambdaC.csprojResolveAssemblyReference.cache
+F:\Visual Studio Projects\LambdaC\LambdaC\obj\Debug\LambdaC.csproj.CoreCompileInputs.cache
+F:\Visual Studio Projects\LambdaC\LambdaC\obj\Debug\LambdaC.exe
+F:\Visual Studio Projects\LambdaC\LambdaC\obj\Debug\LambdaC.pdb
+D:\CORE\C\1.Complete C# Masterclass\10. Advanced C# Topics\LambdaC\LambdaC\bin\Debug\LambdaC.exe.config
+D:\CORE\C\1.Complete C# Masterclass\10. Advanced C# Topics\LambdaC\LambdaC\bin\Debug\LambdaC.exe
+D:\CORE\C\1.Complete C# Masterclass\10. Advanced C# Topics\LambdaC\LambdaC\bin\Debug\LambdaC.pdb
+D:\CORE\C\1.Complete C# Masterclass\10. Advanced C# Topics\LambdaC\LambdaC\obj\Debug\LambdaC.csproj.AssemblyReference.cache
+D:\CORE\C\1.Complete C# Masterclass\10. Advanced C# Topics\LambdaC\LambdaC\obj\Debug\LambdaC.csproj.CoreCompileInputs.cache
+D:\CORE\C\1.Complete C# Masterclass\10. Advanced C# Topics\LambdaC\LambdaC\obj\Debug\LambdaC.exe
+D:\CORE\C\1.Complete C# Masterclass\10. Advanced C# Topics\LambdaC\LambdaC\obj\Debug\LambdaC.pdb
