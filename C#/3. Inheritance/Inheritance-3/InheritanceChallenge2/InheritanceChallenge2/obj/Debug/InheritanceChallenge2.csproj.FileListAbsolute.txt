@@ -1,0 +1,7 @@
+c:\users\denis panjuta\source\repos\InheritanceChallenge2\InheritanceChallenge2\bin\Debug\InheritanceChallenge2.exe.config
+c:\users\denis panjuta\source\repos\InheritanceChallenge2\InheritanceChallenge2\bin\Debug\InheritanceChallenge2.exe
+c:\users\denis panjuta\source\repos\InheritanceChallenge2\InheritanceChallenge2\bin\Debug\InheritanceChallenge2.pdb
+c:\users\denis panjuta\source\repos\InheritanceChallenge2\InheritanceChallenge2\obj\Debug\InheritanceChallenge2.csprojResolveAssemblyReference.cache
+c:\users\denis panjuta\source\repos\InheritanceChallenge2\InheritanceChallenge2\obj\Debug\InheritanceChallenge2.csproj.CoreCompileInputs.cache
+c:\users\denis panjuta\source\repos\InheritanceChallenge2\InheritanceChallenge2\obj\Debug\InheritanceChallenge2.exe
+c:\users\denis panjuta\source\repos\InheritanceChallenge2\InheritanceChallenge2\obj\Debug\InheritanceChallenge2.pdb
