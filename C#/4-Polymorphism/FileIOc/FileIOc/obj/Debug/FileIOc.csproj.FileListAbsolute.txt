@@ -1,0 +1,7 @@
+F:\Visual Studio Projects\FileIOc\FileIOc\bin\Debug\FileIOc.exe.config
+F:\Visual Studio Projects\FileIOc\FileIOc\bin\Debug\FileIOc.exe
+F:\Visual Studio Projects\FileIOc\FileIOc\bin\Debug\FileIOc.pdb
+F:\Visual Studio Projects\FileIOc\FileIOc\obj\Debug\FileIOc.csprojResolveAssemblyReference.cache
+F:\Visual Studio Projects\FileIOc\FileIOc\obj\Debug\FileIOc.csproj.CoreCompileInputs.cache
+F:\Visual Studio Projects\FileIOc\FileIOc\obj\Debug\FileIOc.exe
+F:\Visual Studio Projects\FileIOc\FileIOc\obj\Debug\FileIOc.pdb
